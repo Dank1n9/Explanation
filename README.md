@@ -1,6 +1,7 @@
-这是一个文件提供地址
+这是一个介绍
 
 
 
-[点我前往](https://file.shiorko.dpdns.org)
+[点我前往](https://explanation.shiorko.dpdns.org/)
+
 
