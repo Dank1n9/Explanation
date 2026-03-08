@@ -5,3 +5,4 @@
 [点我前往](https://explanation.shiorko.dpdns.org/)
 
 
+已在cloudflare部署
