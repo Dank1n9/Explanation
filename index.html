@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我也要死吗？ - Shiorko Server Status</title>
+<link rel="icon" href="USE/favicon.ico" type="image/x-icon">
+<style>
+    body {
+        /* 如果背景图加载失败，使用深色背景 */
+        background-color: #1a1a1a; 
+        background-image: url('USE/bg.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: "Microsoft YaHei", sans-serif;
+        color: #eee;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    /* 给文字加一点阴影，防止在复杂背景下看不清 */
+    p, td, h1, h2, span {
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    }
+
+    /* 模拟旧式布局容器，防止在手机上看太宽 */
+    .container {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.6); /* 半透明黑色背景衬托文字 */
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+    video {
+        max-width: 100%;
+        border: 2px solid #555;
+        border-radius: 4px;
+    }
+
+    a {
+        color: #00E9FF;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    /* 针对小屏幕的优化 */
+    @media (max-width: 600px) {
+        .container {
+            width: 95%;
+        }
+        span[style*="font-size: 70px"] {
+            font-size: 40px !important;
+        }
+        span[style*="font-size: 38px"] {
+            font-size: 24px !important;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<table width="100%" border="0" cellspacing="10" cellpadding="5">
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+          <img src="USE/WYYXXX.png" width="108" height="108" alt="Logo">
+          <p><span style="font-size: 70px; color: #fff;">我也要写介绍吗？</span></p>
+          
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                <p style="font-size: 38px; color: #00E9FF;">&nbsp;彳亍！</p>
+                
+                <p style="font-size: 16px; color: #0077FF;">在处理器方面：</p>
+                <p style="font-size: 16px">&nbsp;我的服务器拥有地表最强 AMD EPYC Turin (Zen 5) <span style="color: #FF0004; font-weight:bold;"> 高级处理器</span>！！！</p>
+                
+                <p>
+                    <a href="https://file.shiorko.dpdns.org/file/xx.mp4">
+                        <img src="USE/bnn.jpg" width="124" height="70" alt="Video Preview" style="display:inline-block; vertical-align:middle;">
+                    </a>
+                    &nbsp; <span style="font-size: 24px">这真的太不可思议了！</span>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                  <p style="color: #FF9E00; font-size: 18px;">在内存方面：</p>
+                  <p>我拥有 <span style="color: #FF0004; font-weight:bold;">极为先进的</span> DDR5 ECC Registered&nbsp;768GB 超牛逼内存<br> 
+                  这真的 <span style="font-size: 32px; color: #00FF95; font-weight:bold;">太牛逼了</span>！！！</p>
+                  <img src="USE/nl.gif" width="81" height="81" alt="Memory GIF"/>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                  <p style="color: #000BFF; font-size: 18px;">在存储方面：</p>
+                  <p>我拥企业级 NVMe SSD (U.2 接口)，单盘容量 3.84TB - 7.68TB，RAID 1</p>
+                  <p>牛逼<br> 
+                  太牛逼了</p>
+                  <p><span style="font-size: 10px; color:#ccc;">妈妈再也不用担心我的存储不够啦</span></p>
+                  <img src="USE/wq.jpg" width="97" height="102" alt="Storage"/>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                  <p style="color: #FF0000; font-size: 18px;">网络方面：</p>
+                  <p style="font-size: 14px;">全栈 400GbE 骨干 + 智能边缘接入<br>
+                  </p>
+                  <p style="font-size: 14px;">网卡：NVIDIA BlueField-3 DPU 或 Broadcom Stingray SmartNIC<br> 
+                  </p>
+                  <p style="font-size: 14px;">上行规格：4x 100GbE 或 2x 400GbE (QSFP-DD 接口)&nbsp;</p>
+                  
+                  <p style="background:rgba(255,255,255,0.1); padding:5px; border-radius:5px;">
+                      🛡️ 网址使用 Cloudflare 进行流量代理，所以不要尝试 DDoS 我哦 😎<br>
+                      <span style="font-size:12px; color:#aaa;">《中华人民共和国刑法》第286条：干扰计算机信息系统功能，后果严重者处五年以下有期徒刑。</span>
+                  </p>
+
+                  <p style="font-size: 14px;">本人有且仅有：<br> 
+                  <code>shiorko.dpdns.org</code> &nbsp;|&nbsp; <code>终末地牛逼.abrdns.com</code> 及其子域名</p>
+                  
+                  <p style="color: #ffcccc; font-size: 13px;">
+                      ⚠️ 由于不可抗力，中国大陆地区访问延迟较高。<br>
+                      微信/QQ/百度内置浏览器可能会拦截！（建议直接使用 Chrome/Edge 或 IPv6 子域名）
+                  </p>
+
+                  <p><span style="color: #FE00FF; font-style:italic;">&nbsp;这不是你的问题，也不是我的问题。</span>&nbsp;</p>
+                  <img src="USE/go.gif" width="142" height="63" alt="Go"/>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                  <p style="color: #00FF3C; font-size: 18px;">GPU 方面：</p>
+                  <p>边缘节点广泛部署 NVIDIA L4 / L40S (Ada Lovelace 架构) 或 AMD MI300X，核心枢纽部署 NVIDIA H100/H200 (Hopper) 或 B200 (Blackwell)</p>
+                  <img src="USE/zx.gif" width="140" height="79" alt="GPU"/>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="center">
+                  <p>&nbsp;操作系统：</p>
+                  <p><span style="color: #007DFF;">高度定制的轻量级 Linux (基于 Ubuntu LTS 或 Debian) <br>
+                  <span style="font-size: 9px; color:#aaa;">安全特性：eBPF LSM, Landlock, Rust Components</span></p>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="left" style="padding: 10px;">
+                  <p style="color: #fff; border-bottom: 1px solid #555;">&nbsp;🛠️ 开放的服务：</p>
+                  <p style="color: #8D4600;">&nbsp;️ Minecraft Java 1.14 纯净服务器 <span style="font-size:12px;">(插件版本限制，不再更新)</span></p>
+                  <p>&nbsp;🧟 SCP:SL 纯净无插件服</p>
+                  <p style="color: #FF9800;">&nbsp;🔫 CS2 业余赛事服</p>
+                  <p style="color: #00FF23;">&nbsp;🌐 Web 服务</p>
+                  <p>&nbsp;等......</p>
+                  
+                  <div style="background: rgba(255, 0, 4, 0.2); border: 1px solid #FF0004; padding: 10px; border-radius: 5px; margin-top:10px;">
+                      <p style="color: #FF0004; font-size: 16px; margin: 5px 0;">⚠️ 注意：除 Web 外的所有服务仅提供 IPv6 连接！！！</p>
+                      <p style="color: #FF0004; font-size: 14px; margin: 5px 0;">⚠️ 手机用户请使用蜂窝数据进行连接</p>
+                      <p style="color: #FF0004; font-size: 14px; margin: 5px 0;">⚠️ PC 用户如加载不出，请检查 IPv6 是否为 <code>240</code> 开头。如不是，请升级路由器或使用 VPN。</p>
+					  <p style="color: #FF0004; font-size: 14px; margin: 5px 0;">⚠️ 目前已暂停 <code>SCP/CS2/MC</code> 服务</p>
+                  </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+
+          <table width="90%" border="0" bgcolor="#000000" style="background: rgba(0,0,0,0.5); border-radius: 10px;">
+          <tbody>
+            <tr>
+              <td align="left" style="padding: 10px;">
+                  <p style="color: #C500FF;">&nbsp;📋 基础信息：</p>
+                  <p style="color: #C500FF;">&nbsp;👨‍💻 技术员：我</p>
+                  <p style="color: #C500FF;">&nbsp;📶 网络提供：Cloudflare </p>
+                  <p style="color: #C500FF;">&nbsp;☁️ 代理/防御：Cloudflare</p>
+                  <p style="color: #C500FF;">&nbsp;⚡ 电力提供：美国：</p>
+                  <p style="color: #C500FF;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PG&amp;E (加州), ConEdison (纽约), Oncor (德州), NV Energy (内华达 - 硅谷后花园)。</p>
+                  <p style="color: #C500FF;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;欧洲：</p>
+                  <p style="color: #C500FF;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; E.ON (德国), EDF (法国), National Grid (英国)。&nbsp;</p>
+                  <p style="color: #C500FF;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 亚洲：</p>
+                  <p style="color: #C500FF;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 东京电力 (日本), 韩国电力 (KEPCO), 新加坡能源 (SP Group), 国家电网/南方电网 (中国)。</p>
+<p style="color: #C500FF;">&nbsp;🙏 致谢名单：<span style="color: #008AFF;">Dochka</span></p>
+                  <p style="color: #C500FF;">&nbsp;🔗 帮助网址：<a href="http://ep01.shiorko.dpdns.org">ep01.shiorko.dpdns.org</a></p>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <br>
+          
+          <!-- 视频区域 -->
+          <table width="90%" border="0">
+            <tbody>
+                <tr>
+                    <td align="center">
+                        <video width="100%" max-width="600" preload="auto" controls autoplay>
+                            <source src="https://file.shiorko.dpdns.org/file/DF.mp4" type="video/mp4">
+                            您的浏览器不支持视频标签。
+                        </video>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+
+          <br>
+
+          
+          
+          
+          <br><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</body>
+</html>
